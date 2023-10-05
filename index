@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fútbol</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0; 
+            padding: 0; 
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #e74c3c;
+            font-size: 36px;
+        }
+
+        p {
+            color: #3498db;
+            font-size: 18px;
+            margin-bottom: 20px; 
+        }
+
+        .destacado {
+            font-family: 'Courier New', monospace;
+            color: #27ae60;
+            font-size: 24px;
+        }
+
+        /* Estilos para un botón ficticio */
+        .boton {
+            background-color: #e74c3c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        /* Estilos para el pie de página */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>El emocionante mundo del fútbol</h1>
+    </header>
+    <p>El fútbol es un deporte apasionante que se juega en todo el mundo. Los equipos compiten en estadios llenos de aficionados ansiosos por ver a sus equipos favoritos en acción.</p>
+    <p class="destacado">¡No te pierdas ni un solo partido de tu equipo!</p>
+    <p>Ya sea viendo un partido en el estadio o en la televisión, el fútbol siempre es una experiencia emocionante.</p>
+    <a class="boton" href="#">Más información</a>
+    <footer>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hCF66sUwTkg?si=JSufTQdZLgKeXK5y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        &copy; 2023 - Derechos reservados
+    </footer>
+</body>
+</html>
